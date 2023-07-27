@@ -1,0 +1,156 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: rgb(232 49 80);
+    color: white;
+}
+
+#title h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.cont{
+    padding: 3% 15% 7%;
+
+}
+
+
+/* navbar */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2100px;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Download buttons */
+
+.down_btn{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.image{
+    width: 40%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* section features */
+
+.box{
+    text-align: center;
+    padding: 5%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+#icon{
+    color: #ef8172;
+}
+
+/* testimonials section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press section */
+
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding: 3%;
+}
+
+.presslogo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.price-col{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* call to action section */
+#cta{
+    background-color: rgb(232 49 80);
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer section */
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
